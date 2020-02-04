@@ -1,0 +1,34 @@
+package JavaPgms;
+
+public class Fibonocciseries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numb = 21, c;
+		int j=0;
+		int first = 0, second = 1;
+		System.out.println("first"+""+first);
+		System.out.println("second"+""+second);
+		
+		for(int i = 0;i<=numb;i++){
+			
+			for(j = c;j<numb;j++){
+				
+				int next=i+j;
+				c=next;
+				System.out.println(next);
+				break;
+			}
+			
+		
+		
+			
+		}
+		
+		
+		
+		
+
+	}
+
+}

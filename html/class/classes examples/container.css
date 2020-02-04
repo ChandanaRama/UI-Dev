@@ -1,0 +1,58 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background:#ddd;
+	font-size:20px;
+	font-family:arial;
+}
+ul,ol
+{
+	list-style:none;
+}
+a
+{
+	text-decoration:none;
+}
+input[type="text"],input[type="number"],input[type="email"]
+{
+	
+}
+.row
+{
+	background:#555;
+	//height:80px;
+}
+.container
+{
+	width:80%;
+	margin:0px auto;
+	//background:gold;
+	//height:600px;
+}
+.row .container .banner
+{
+	font-size:50px;
+	color:#fff;
+	font-family:cursive;
+	font-weight:bold;
+	font-weight:900;
+	padding:10px;
+	
+}
+.container .para1
+{
+	background:navy;
+	color:#fff;
+	text-align:justify;
+	padding:20px;
+	line-height:1.5;
+}
+.footer
+{
+	background:#555;
+	height:80px;
+}

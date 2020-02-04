@@ -1,0 +1,29 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+ul
+{
+	list-style:none;
+	margin-left:150px;
+	margin-top:20px;
+}
+ul li
+{
+	float:left;
+	margin:0px 1px;
+}
+ul li a
+{
+	text-decoration:none;
+	background:gold;
+	color:blue;
+	font-size:20px;
+	padding:20px 70px;
+}
+ul li a:hover
+{
+	background:#555;
+	color:#ffff;
+}

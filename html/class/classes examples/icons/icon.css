@@ -1,0 +1,92 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background:orange;
+}
+.row
+{
+	background:#555;
+	line-height:80px;
+}
+.row .banner
+{
+	font-size:40px;
+	color:#fff;
+	font-family:cursive;
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.row .search
+{
+	float:right;
+	margin-right:150px;
+}
+.row .search input
+{
+	padding:8px;
+	border:0px;
+	border-radius:30px;
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position:right;
+	background-position:96%;
+}
+.menu
+{
+	//margin:10px 100px;
+	background:green;
+	padding:10px;
+}
+ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+ul li
+{
+	margin:0px 1px;
+	float:left;
+}
+ul li a
+{
+	text-decoration:none;
+	font-size:20px;	
+	color:white;
+	padding:12px 80px;
+}
+ul li a:hover
+{
+	background:orange;
+	color:red;
+}
+.main
+{
+	margin:10px 100px;
+}
+.main .icon1,.icon2
+{
+	width:44%;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:25px;
+	text-align:center;
+	color:#fff;
+	border:2px double #fff;
+}
+//.fa-ambulance,.fa-android
+{
+	font-size:30px;
+	
+}
+.clear
+{
+	clear:both;
+}

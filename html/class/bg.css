@@ -1,0 +1,110 @@
+body
+{
+	background-image:url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/01/15/08580066565256e.jpg");
+	background-size:500px;
+	//background-size:cover;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	//background-repeat:repeat-x;
+	//background-repeat:repeat-y;
+	background-position:center;
+	background-position:top;
+	background-position:bottom;
+	background-position:top right;
+	background-attachment:fixed;
+	
+}
+#heading
+{
+	background:maroon;
+	color:white;
+	text-align:center;
+	border:3px solid white;
+	border-radius:30px;
+	padding:5px;
+	text-transform:uppercase;
+	text-transform:lowercase;
+	text-transform:capitalize;
+	text-decoration:underline;
+	text-decoration:overline;
+	text-decoration:line-through;
+	text-decoration:none;
+	text-shadow:2px 3px yellow;
+	box-shadow:2px 2px 3px 2px #000;
+	cursor:wait;
+}
+.para1
+{
+	//background:blue;
+	border-top:3px solid white;
+	border-right:3px dotted red;
+	border-bottom:3px dashed green;
+	border-left:4px double yellow;
+	margin:10px 100px;
+	padding:20px;
+	box-shadow:2px 2px 3px 2px #000;
+	line-height:1;
+	line-height:1.5;
+	line-height:2;
+	word-spacing:5px;
+	letter-spacing:5px;
+	text-indent:50px;
+	cursor:pointer;
+}
+.img1
+{
+	border-radius:30px;
+	margin-left:100px;
+	cursor:help;
+	filter:blur(5px);
+}
+.img2
+{
+	border-radius:10px 80px;
+	margin:0px 30px;
+	filter:opacity(0.5);
+}
+.img3
+{
+	border-radius:50%;
+	//opacity:0.5;
+	filter:drop-shadow(10px 8px #000 );
+}
+.img3:hover
+{
+	filter:grayscale(100%);
+	
+}
+.para2
+{
+	//background:navy;
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd884pTS4fV6YGmuqvGGh5HVvN9Fomu7VZYTsOE2aw4QuIs80p&s");
+	background-size:100% 100%;
+	background-size:cover;
+	border:4px double yellow;
+	line-height:2;
+	height:200px;
+	overflow:hidden;
+	overflow:visible;
+	overflow:scroll;
+	overflow:auto;
+}
+.para3
+{
+	//background:orange;
+	border:4px double yellow;
+}
+.para3:hover
+{
+	background:black;
+	color:green;
+	
+}
+.para1,.para2,.para3
+{
+	color:white;
+	text-align:justify;
+	font-size:20px;
+	margin:10px 100px;
+	padding:30px;
+}

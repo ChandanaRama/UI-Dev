@@ -1,0 +1,19 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginScenario {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://www.demo.guru99.com/V4/");
+		driver.findElement(By.id("message23")).sendKeys("UserId");
+		driver.findElement(By.id("message18")).sendKeys("Password");
+		driver.findElement(By.xpath("html/body/form/table/tbody/tr[3]/td[2]/input[1]")).click();
+
+	}
+
+}

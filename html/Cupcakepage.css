@@ -1,0 +1,136 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background:#ff8080;
+	font-size:20px;
+	font-family:fantasy;
+}
+ul,ol
+{
+	list-style:none;
+}
+a
+{
+	text-decoration:none;
+}
+input[type="text"],input[type="number"],input[type="email"]
+{
+	
+}
+.container{
+	
+	width:80%;
+	margin:0px auto;
+}
+.top{
+	line-height: 80px;
+}
+.top .heading{
+	font-size: 40px;
+	font-family: fantasy;
+	color: white;
+	font-weight: bold;
+	width:75%;
+	float:left;
+	text-align:center;
+	//padding-top: 5px;
+
+}
+.top .search{
+
+	float:right;
+	margin-right:150px;
+
+}
+.top .search input
+{
+	padding:8px;
+	border:0px;
+	border-radius:30px;
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+	background-size:25px;
+	background-repeat:no-repeat;
+	background-position:right;
+	background-position:96%;
+}
+
+.menu{
+	background: #cc66ff;
+	padding:10px;
+}
+.menu ul{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+.menu ul li
+{
+	margin:0px 1px;
+	float:left;
+}	
+.menu ul li a
+{
+	text-decoration:none;
+	font-size:20px;	
+	color:white;
+	padding:12px 80px;
+}
+.menu ul li a:hover
+{
+	background:red;
+	color:white;
+	text-decoration:none;
+	font-size:20px;	
+	padding:12px 80px;
+}
+.container .para1 {
+	background: #cc66ff;
+	color:white;
+	width:48%;
+	float:left;
+	padding:5px; 
+
+}
+.container .img1{
+	width:48%;
+	float:left;
+
+}
+.container .para2{
+	background: #cc66ff;
+	color:white;
+	padding:5px; 
+}
+.container .para4,.para5,.para6
+{
+	
+	padding:20px;
+	margin:10px;
+	text-align:justify;
+	width:27.5%;
+	float:left;
+}
+.container .para4 .para6
+{
+	text-align:center;
+	color:white;
+	font-size:25px;
+	font-weight:bold;
+	
+}
+.container .para5
+{
+	background:#cc66ff;
+	color:white;
+	text-align:justify;
+
+
+}
+
+.clear
+{
+	clear: both;
+}

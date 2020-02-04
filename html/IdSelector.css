@@ -1,0 +1,17 @@
+#heading1{
+	background: pink;
+	color:red;
+	text-align: center;
+
+}
+#heading2{
+	background: red;
+	color:yellow;
+	text-align: justify;
+
+}
+#para1{
+	background: white;
+	color:yellow;
+	font-size: 30px;
+}
